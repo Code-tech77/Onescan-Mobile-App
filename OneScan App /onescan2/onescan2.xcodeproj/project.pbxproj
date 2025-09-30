@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ADEFC3922DDE482A00D8DCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEFC3792DDE482900D8DCDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEFC3802DDE482900D8DCDE;
+			remoteInfo = onescan2;
+		};
+		ADEFC39C2DDE482A00D8DCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEFC3792DDE482900D8DCDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEFC3802DDE482900D8DCDE;
+			remoteInfo = onescan2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEFC3812DDE482900D8DCDE /* onescan2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onescan2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEFC3912DDE482A00D8DCDE /* onescan2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onescan2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEFC39B2DDE482A00D8DCDE /* onescan2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onescan2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AD4DDA672DE9079800E4ABEF /* Exceptions for "onescan2" folder in "onescan2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ADEFC3802DDE482900D8DCDE /* onescan2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ADEFC3832DDE482900D8DCDE /* onescan2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD4DDA672DE9079800E4ABEF /* Exceptions for "onescan2" folder in "onescan2" target */,
+			);
+			path = onescan2;
+			sourceTree = "<group>";
+		};
+		ADEFC3942DDE482A00D8DCDE /* onescan2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = onescan2Tests;
+			sourceTree = "<group>";
+		};
+		ADEFC39E2DDE482A00D8DCDE /* onescan2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = onescan2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEFC37E2DDE482900D8DCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC38E2DDE482A00D8DCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC3982DDE482A00D8DCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEFC3782DDE482900D8DCDE = {
+			isa = PBXGroup;
+			children = (
+				ADEFC3832DDE482900D8DCDE /* onescan2 */,
+				ADEFC3942DDE482A00D8DCDE /* onescan2Tests */,
+				ADEFC39E2DDE482A00D8DCDE /* onescan2UITests */,
+				ADEFC3822DDE482900D8DCDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEFC3822DDE482900D8DCDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEFC3812DDE482900D8DCDE /* onescan2.app */,
+				ADEFC3912DDE482A00D8DCDE /* onescan2Tests.xctest */,
+				ADEFC39B2DDE482A00D8DCDE /* onescan2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEFC3802DDE482900D8DCDE /* onescan2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEFC3A52DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2" */;
+			buildPhases = (
+				ADEFC37D2DDE482900D8DCDE /* Sources */,
+				ADEFC37E2DDE482900D8DCDE /* Frameworks */,
+				ADEFC37F2DDE482900D8DCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ADEFC3832DDE482900D8DCDE /* onescan2 */,
+			);
+			name = onescan2;
+			packageProductDependencies = (
+			);
+			productName = onescan2;
+			productReference = ADEFC3812DDE482900D8DCDE /* onescan2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEFC3902DDE482A00D8DCDE /* onescan2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEFC3A82DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2Tests" */;
+			buildPhases = (
+				ADEFC38D2DDE482A00D8DCDE /* Sources */,
+				ADEFC38E2DDE482A00D8DCDE /* Frameworks */,
+				ADEFC38F2DDE482A00D8DCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEFC3932DDE482A00D8DCDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ADEFC3942DDE482A00D8DCDE /* onescan2Tests */,
+			);
+			name = onescan2Tests;
+			packageProductDependencies = (
+			);
+			productName = onescan2Tests;
+			productReference = ADEFC3912DDE482A00D8DCDE /* onescan2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADEFC39A2DDE482A00D8DCDE /* onescan2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEFC3AB2DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2UITests" */;
+			buildPhases = (
+				ADEFC3972DDE482A00D8DCDE /* Sources */,
+				ADEFC3982DDE482A00D8DCDE /* Frameworks */,
+				ADEFC3992DDE482A00D8DCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEFC39D2DDE482A00D8DCDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ADEFC39E2DDE482A00D8DCDE /* onescan2UITests */,
+			);
+			name = onescan2UITests;
+			packageProductDependencies = (
+			);
+			productName = onescan2UITests;
+			productReference = ADEFC39B2DDE482A00D8DCDE /* onescan2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEFC3792DDE482900D8DCDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ADEFC3802DDE482900D8DCDE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ADEFC3902DDE482A00D8DCDE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ADEFC3802DDE482900D8DCDE;
+					};
+					ADEFC39A2DDE482A00D8DCDE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ADEFC3802DDE482900D8DCDE;
+					};
+				};
+			};
+			buildConfigurationList = ADEFC37C2DDE482900D8DCDE /* Build configuration list for PBXProject "onescan2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEFC3782DDE482900D8DCDE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ADEFC3822DDE482900D8DCDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEFC3802DDE482900D8DCDE /* onescan2 */,
+				ADEFC3902DDE482A00D8DCDE /* onescan2Tests */,
+				ADEFC39A2DDE482A00D8DCDE /* onescan2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEFC37F2DDE482900D8DCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC38F2DDE482A00D8DCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC3992DDE482A00D8DCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEFC37D2DDE482900D8DCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC38D2DDE482A00D8DCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEFC3972DDE482A00D8DCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEFC3932DDE482A00D8DCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEFC3802DDE482900D8DCDE /* onescan2 */;
+			targetProxy = ADEFC3922DDE482A00D8DCDE /* PBXContainerItemProxy */;
+		};
+		ADEFC39D2DDE482A00D8DCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEFC3802DDE482900D8DCDE /* onescan2 */;
+			targetProxy = ADEFC39C2DDE482A00D8DCDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADEFC3A32DDE482A00D8DCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADEFC3A42DDE482A00D8DCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEFC3A62DDE482A00D8DCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onescan2/onescan2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onescan2/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZBR3X29AM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onescan2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = onescan;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to your photo library to save QR codes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEFC3A72DDE482A00D8DCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = onescan2/onescan2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onescan2/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZBR3X29AM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onescan2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = onescan;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to your photo library to save QR codes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADEFC3A92DDE482A00D8DCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZBR3X29AM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onescan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onescan2";
+			};
+			name = Debug;
+		};
+		ADEFC3AA2DDE482A00D8DCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZBR3X29AM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onescan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onescan2";
+			};
+			name = Release;
+		};
+		ADEFC3AC2DDE482A00D8DCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onescan2;
+			};
+			name = Debug;
+		};
+		ADEFC3AD2DDE482A00D8DCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CyberTutor.onescan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onescan2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEFC37C2DDE482900D8DCDE /* Build configuration list for PBXProject "onescan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEFC3A32DDE482A00D8DCDE /* Debug */,
+				ADEFC3A42DDE482A00D8DCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEFC3A52DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEFC3A62DDE482A00D8DCDE /* Debug */,
+				ADEFC3A72DDE482A00D8DCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEFC3A82DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEFC3A92DDE482A00D8DCDE /* Debug */,
+				ADEFC3AA2DDE482A00D8DCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEFC3AB2DDE482A00D8DCDE /* Build configuration list for PBXNativeTarget "onescan2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEFC3AC2DDE482A00D8DCDE /* Debug */,
+				ADEFC3AD2DDE482A00D8DCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEFC3792DDE482900D8DCDE /* Project object */;
+}
